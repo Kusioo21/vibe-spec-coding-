@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Generator D&D - Vibe Coding</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <h2>Vibe Coding Mode</h2>
+        <select id="r"><option>Człowiek</option><option>Elf</option><option>Krasnolud</option></select>
+        <select id="c"><option>Wojownik</option><option>Mag</option><option>Łotrzyk</option></select>
+        <button onclick="robPostac()">Generuj Postać!</button>
+        <button onclick="pobierzPDF()">Pobierz PDF</button>
+    </div>
+
+    <div id="karta">
+        <h1>Karta Postaci</h1>
+        <p>Rasa: <span id="r_out">-</span> | Klasa: <span id="c_out">-</span></p>
+        <div class="main-stats">
+            <b>HP: <span id="hp">0</span></b> | <b>AC: <span id="ac">10</span></b>
+        </div>
+        <div id="stats-area"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

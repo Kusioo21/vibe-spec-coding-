@@ -1,0 +1,4 @@
+vibe coding
+łatwo zacząć od razu masz gotowy projekt ale przy wprowadzaniu zmian chat czasami zmienia inny fragment kodu niż się chce i często wywala błędy których nie umie naprawić 
+spec coding 
+ciężej zacząć bo musisz mieć na niego pomysł i myśleć od czego zacząć żeby miało to sens ale łatwiej jest wprowadzić zmianę w kodzie i jesteś bardziej świadomy działania kodu niż w vibe coding

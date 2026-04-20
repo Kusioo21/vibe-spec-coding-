@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>D&D Hero Creator Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <header class="app-header">
+        <h1>Kreator Postaci </h1>
+        <div class="controls">
+            <select id="racePicker"></select>
+            <select id="classPicker"></select>
+            <button id="btnGen">Generuj</button>
+            <button id="btnPdf">Eksportuj PDF</button>
+        </div>
+    </header>
+
+    <main id="sheet-to-print">
+        <article class="sheet">
+            <div class="sheet-header">
+                <h2 id="viewRace">Rasa</h2>
+                <h2 id="viewClass">Klasa</h2>
+            </div>
+            <div class="main-stats">
+                <div class="circle"><span>HP</span><b id="valHP">0</b></div>
+                <div class="circle"><span>AC</span><b id="valAC">10</b></div>
+            </div>
+            <div id="statGrid" class="grid"></div>
+        </article>
+    </main>
+
+    <script src="engine.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
